@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos y validacion en html</title>
+</head>
+<body>
+
+    <form action="">
+        <!--Atributos de Input-->
+                
+        <!--Ingresar cual quier texto, pero lo que le hace diferente es que adentro del rectangulo aparece el mensaje Ingresar texto-->
+        <input type="text" placeholder="Inserte texto">
+
+        <br>
+        <!--Se selecciona solo y podemos escribir en el-->
+        <input type="text" autofocus>
+
+        <br>
+        <!--Simplemente agregas texto-->
+        <input type="text" autocomplete="off">
+
+        <br>
+
+        <!--Podemos selecionar varios elementos y enviarlos, ya sea 2 a 4 o mas-->
+        <select multiple>
+        <option value="1">Opcion 1</option>   
+        <option value="2">Opcion 2</option>
+        <option value="3">Opcion 3</option>   
+        </select>
+
+        <br>
+        <hr>
+
+        <!--Validacion -->
+
+         <!--Este si o si tenemos que completar el campo o el rectangulo para poder enviarlo a donde queremos, si no ponemos nada nos dira que tenemos que poner si o si-->
+        <input type="text" required>
+
+        <br>
+         
+        <!--Este solo es un rectangulo de color gris que no podemos manipular por nada-->
+        <input type="text" disabled>
+
+        <br>
+
+        <!--Solo el usuario puede escribir, nososotros no-->
+        <input type="text" readonly  value="Texto escrito por el ususario">
+
+        <br>
+        
+        <!--Este pide numeros que van dede el 5 asta el 20, no se puede menos del 5 ni mas del 20-->
+        <input type="text" min="5" max="20" placeholder="5 al 20" title="Numero del 5 al 20">
+
+        <br>
+        
+        <!--Este pide una serie de comvinaciones para hacer como una contraseña -->
+        <input type="text" pattern="[A-Z]{2}[0-9]{3}" placeholder="Patron" title="Dos lestras y tres numeros">
+    
+        <!--Este es el boton de enviar datos-->
+    <input type="submit">
+    </form>
+
+
+</body>
+</html>

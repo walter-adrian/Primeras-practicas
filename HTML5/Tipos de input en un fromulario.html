@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input en un formulario</title>
+</head>
+<body>
+
+    <!--Input de texto-->
+<!--Este input sirve para añadir cualquier texto-->
+        <label for="">Tipos de texto</label>   
+        <input type="text">    
+
+        <br>
+<!--Este sirve para buscar cualquier cosa, podemos borrarlo como si fuera un buscador de google-->
+        <label for="">Busqueda</label>
+        <input type="search">
+
+        <br>
+<!--Pide una url de un link en espesifico-->
+        <label for="">URL</label>
+        <input type="url">
+
+        <br>
+<!--Pide una cuenta de email-->
+        <label for="">email</label>
+        <input type="email">
+        
+        
+        <br>
+<!--Añades una contraseña, aparece oculta con los sirculitos-->
+        <label for="">contraseña</label>
+        <input type="password">
+
+        <br>
+<!--ESte nod permite escribir como un tipo comentario en un espacio de texto grande-->
+        <label for="">campo de texto</label>
+        <textarea ></textarea>
+
+        <br>
+
+<hr>
+
+
+    <!--Input de tipo numerico-->
+<!--Este solo permite escribir numeros, nada de lestras-->
+        <label for="">Tipo numerico</label>
+        <input type="number">
+
+        <br>
+
+<!--Este solo muestra una linea con un broche que podemos mover como para mostrar el rango-->
+        <label for="">Rango</label>
+        <input type="range">
+
+        <br>
+
+<hr>
+
+
+   <!--Input de tipo fecha y hora-->
+<!--Este nos permite poner la fecha que nosotros querramos-->
+        <label for="">fecha</label>
+        <input type="date">
+
+        <br>
+<!--Este igual podemos modificar nsotros la hora-->
+        <label for="">Tiempo</label>
+        <input type="time">
+
+        <br>
+
+<!--Este nos permite poner la fecha y hora-->
+        <label for="">Fecha y hora</label>
+        <input type="datetime-local">
+
+        <br>
+<!--Nos permite poner el mes que querramos-->
+        <label for="">mes</label>
+        <input type="month">
+
+        <br>
+<!--Igual que el mes nos permite poner la semana-->
+        <label for="">semana</label>
+        <input type="week">
+
+        <br>
+
+<hr>
+
+
+
+
+    <!--Input de selecion-->
+<!--Este nos permite seleccionar solamente una respuestaa-->
+        <label for="">Radio boton</label>
+        <input type="radio">    
+
+        <br>
+
+<!--Esto nos permite seleccionar varias opciones-->
+        <label for="">checkbox</label>
+        <input type="checkbox">
+
+        <br>
+
+
+<!--Este nos permite seleccionar una opcions pero lo que le hace diferente es que podemos nosotros buscar la opcion, por ejemplo buscar la opcion 3-->
+        <label for="selec-options"></label>
+        <select name="" id="">
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+            <option value="4">opcion 4</option>
+        </select>
+
+        <br>
+<!--Filtra la opcion a la hoora de buscar una opcion-->
+        <label for="">datalist</label>
+        <input type="text" list="items">
+        <datalist id="items"> 
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+
+        </datalist>
+
+        <br>
+
+<!--Genera la paleta de colores-->
+        <label for="">Colores</label>
+        <input type="color">
+         
+        <br>
+
+        <hr>
+    <!--Cargar archivo-->
+ <!--Nos permite seleccionar un archivo -->
+       <label for="">seleccionde archivo</label>
+        <input type="file">
+
+    <!--Botones-->
+<!-- procesa la infromacion cuando se preciona el boton-->
+        <label for="">submit</label>
+        <input type="submit">
+
+        <br>
+<!--Esto lo que hace es transforma un boton en una imagen, pero no es recomendable ya que se puede hacer en css-->
+        <label for="">Imagen</label>
+        <input type="image" src="Archivo/114.jpg.webp">
+
+        <br>
+
+<!--Esto lo que hace es reiniciar todo un formulario o cualquier cosa que contenga infromacion-->
+        <label for="">Borrar formulario</label>
+        <input type="reset">
+
+        <br>
+
+<!--Este boton nos permite crear codigo javascript, php etc-->
+        <label for="">Boton sin funcionalidades</label>
+        <input type="button" value="input boton">
+        <button>Boton simple</button>
+
+        <br>
+
+        <!--Barra de progreso-->
+<!--Se puede hcaer con codigo java para que valla de 5 en 5 o como sea-->
+        <progress max="100" value="50">
+
+        </form>
+</body> 
+</html>                                         
